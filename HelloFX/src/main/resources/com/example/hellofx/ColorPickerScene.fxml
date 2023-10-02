@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.ColorPickerController">
+   <children>
+      <ColorPicker fx:id="colorPicker" layoutX="238.0" layoutY="53.0" onAction="#chnageColor">
+         <value>
+            <Color />
+         </value>
+      </ColorPicker>
+      <Label fx:id="label" layoutX="262.0" layoutY="200.0" prefHeight="36.0" prefWidth="78.0" text="Label" />
+   </children>
+</AnchorPane>

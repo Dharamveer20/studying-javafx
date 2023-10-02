@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="677.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.CheckBoxController">
+   <children>
+      <CheckBox fx:id="checkBox" layoutX="361.0" layoutY="390.0" mnemonicParsing="false" onAction="#changeImage" prefHeight="30.0" prefWidth="135.0" text="Change">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="changeNotChangeLabel" alignment="CENTER" layoutX="287.0" layoutY="339.0" prefHeight="42.0" prefWidth="274.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageVIew" fitHeight="366.0" fitWidth="571.0" layoutX="127.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/mikasa_kun.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
